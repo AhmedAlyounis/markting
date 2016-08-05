@@ -1,0 +1,86 @@
+body{
+	background-color: #f2f3f8;
+}
+.navbar{
+	background-color: #ff8600;
+	margin-bottom: 40px;
+}
+.sidebar{
+	float: left;
+}
+.navbar-toggle{
+	float: left;
+}
+.title h6{
+	line-height: 0;
+}
+.title h5{
+	font-weight: 300;
+}
+.fa-search ,.form-control{
+	color: #ff8600;
+}
+.title{
+	margin-bottom: 20px;
+}
+
+.input-group,
+.form-control{
+	margin-bottom: 15px;
+}
+
+.sortby ul li {
+	list-style: none;
+	margin-left: -25px;
+}
+.sortby ul li a{
+	color: #838384;
+}
+.sortby h3{
+	color: #666666;
+	margin-left: 10px;
+}
+/******* SLIDE BAR END *******/
+
+.item{
+	min-height: 138px;
+	overflow: hidden;
+	width:100%;
+}
+.item > .img{
+	width: 100%;
+}
+.item > .img img {
+	width: 100%;
+}
+.item > .img img:hover{
+	-webkit-filter: blur(2px);
+}
+
+/* tablets */
+@media (max-width: 1200px) {
+.videobox{
+	width: 50%;
+	float: left;
+}
+.sortby-section{
+	width: 33.333333%;
+	float: left;
+	margin-bottom: 30px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+.sortby h3{
+	font-size: 14px;
+}
+.videobox{
+	width: 100%;
+	float: left;
+}
+
+}
+
+
+
+
+
